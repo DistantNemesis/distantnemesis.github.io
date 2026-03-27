@@ -1,10 +1,25 @@
 body {
+  background-image: url("../icons/ss038.jpg");
+  background-repeat: repeat;
+}
+
+.body-content {
   font-family: 'Bai Jamjuree', sans-serif;
-  font-weight: 400; /* regular weight */
-  background-image: linear-gradient(to bottom right, paleturquoise, white);
+  font-weight: 400;
   display: flex;
+  width: 55%;
   min-height: 100vh;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 12px;
+  margin: 0 auto;
   flex-direction: column;
+  background-image: linear-gradient(to bottom right, paleturquoise, white);
+}
+
+@media (max-width: 768px) {
+  .body-content {
+    width: 80%;
+  }
 }
 
 h1 {
@@ -48,7 +63,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(3px, 23vw, 450px);
+  gap: clamp(3px, 23vw,  45vw);
   padding: 15px;
 }
 
