@@ -22,14 +22,7 @@ body {
   }
 }
 
-h1 {
-  text-align: center;
-  font-weight: bold;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h2 {
+.centered-header {
   text-align: center;
   font-weight: bold;
   margin: 0 auto;
@@ -70,4 +63,17 @@ footer {
 .footer-content img {
   color: black;
   width:  32px;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 5px;
 }
